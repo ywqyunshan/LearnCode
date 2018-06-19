@@ -1,6 +1,6 @@
 ## Java Data Structures and Algorithms
 
-###  Data Structures
+####  Data Structures
 
 * [ArrayList](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MyArraryList.java)
 * [SingleLinkedList](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MySingleLinkedList.java)
@@ -10,7 +10,7 @@
 * [SeqQueue](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MySeqQueue.java)
 * [SeqCycleQueue](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MySeqCycleQueue.java)
 
-###  Sort Algorithms
+####  Sort Algorithms
 
 * [bubbleSort](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/sort/MySort.java)
 * [insertSort](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/sort/MySort.java)
