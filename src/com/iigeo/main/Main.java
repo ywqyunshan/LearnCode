@@ -2,6 +2,7 @@ package com.iigeo.main;
 
 import com.iigeo.base.Reserve;
 import com.iigeo.datastrut.MyArraryList;
+import com.iigeo.datastrut.MyLinkedStack;
 import com.iigeo.find.BinarySearch;
 import com.iigeo.sort.MySort;
 
@@ -26,13 +27,13 @@ public class Main {
         System.out.println(myArraryList.getItem(0));*/
 
         //调用栈
-      /* MyArraryStack myArraryStack=new MyArraryStack(2);
+       MyLinkedStack myArraryStack=new MyLinkedStack();
        myArraryStack.push("a");
        myArraryStack.push("b");
        myArraryStack.push("c");
        System.out.println(myArraryStack.pop());
-        System.out.println(myArraryStack.peek());
-        System.out.println(myArraryStack.pop());*/
+       System.out.println(myArraryStack.peek());
+       System.out.println(myArraryStack.pop());
 
       //调用单链表
       /* MySingleLinkedList mySingleLinkedList=new MySingleLinkedList();
@@ -69,10 +70,10 @@ public class Main {
        System.out.println(Arrays.toString(ints));*/
 
        //二分法查找
-        int[] ints={3,5,8,9,0,2,7,44,6};
+      /*  int[] ints={3,5,8,9,0,2,7,44,6};
         BinarySearch binarySearch=new BinarySearch(ints);
        int i= binarySearch.indexofByWhie(0,ints.length-1,1);
-       System.out.println(i);
+       System.out.println(i);*/
 
 
     }
