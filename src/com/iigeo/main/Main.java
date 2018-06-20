@@ -4,6 +4,7 @@ import com.iigeo.base.Reserve;
 import com.iigeo.datastrut.MyArraryList;
 import com.iigeo.datastrut.MyLinkedStack;
 import com.iigeo.find.BinarySearch;
+import com.iigeo.find.FindString;
 import com.iigeo.sort.MySort;
 
 import java.util.Arrays;
@@ -27,14 +28,14 @@ public class Main {
         System.out.println(myArraryList.getItem(0));*/
 
         //调用栈
-       MyLinkedStack myArraryStack=new MyLinkedStack();
+       /*MyLinkedStack myArraryStack=new MyLinkedStack();
        myArraryStack.push("a");
        myArraryStack.push("b");
        myArraryStack.push("c");
        System.out.println(myArraryStack.pop());
        System.out.println(myArraryStack.peek());
        System.out.println(myArraryStack.pop());
-
+*/
       //调用单链表
       /* MySingleLinkedList mySingleLinkedList=new MySingleLinkedList();
        mySingleLinkedList.add(0,"a");
@@ -74,6 +75,9 @@ public class Main {
         BinarySearch binarySearch=new BinarySearch(ints);
        int i= binarySearch.indexofByWhie(0,ints.length-1,1);
        System.out.println(i);*/
+
+        FindString findString=new FindString("AAABBBccccddd2222333dddddd4ee");
+        findString.findMostStr();
 
 
     }

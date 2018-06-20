@@ -2,6 +2,9 @@ package com.iigeo.find;
 
 import java.util.Arrays;
 
+/**
+ * 二分法查询
+ */
 public class BinarySearch {
 
     public int[] ints;
@@ -16,6 +19,7 @@ public class BinarySearch {
         Arrays.sort(ints);
         int mIndex=(start+end)/2;
         int mVaule=ints[mIndex];
+        //2.递归查找
         if (key<mVaule) {
             return indexof(start,mIndex-1,key);
         }else if (key>mVaule){
