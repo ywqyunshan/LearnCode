@@ -1,5 +1,8 @@
 package com.iigeo.gisalg;
 
+/**
+ * 计算几何算法
+ */
 public class GISAlg {
 
 

@@ -30,8 +30,10 @@ public class BinarySearch {
 
     }
 
-    public int indexofByWhie(int start,int end,int key){
+    public int indexofByWhile(int start,int end,int key){
+        //1.排序
         Arrays.sort(ints);
+        //2.循环查找
         while (start<=end){
             int mIndex=start+(end-start)/2;
             int mVaule=ints[mIndex];
