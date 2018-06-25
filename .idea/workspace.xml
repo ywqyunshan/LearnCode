@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/find/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/find/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyLinkedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -56,8 +52,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="-821">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,20 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySeqCycleQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="19">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -103,7 +90,6 @@
         <option value="$PROJECT_DIR$/src/com/iigeo/datastrut/MyArraryStack.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/find/FindString.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/gisalg/GISAlg.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/StrategyPattern.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/StrategyPattern.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java" />
@@ -144,12 +130,13 @@
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/adapter/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/adapter/PlayerAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/adapter/ExsitPlayer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/iigeo/find/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/main/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -179,45 +166,6 @@
             <path>
               <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="datastrut" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="find" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="gisalg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529912812450</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add linkedqueue">
+      <created>1529940501129</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529940501129</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -381,10 +336,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286991" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32643312" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -395,7 +350,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.326713" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.238653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17203514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -409,7 +364,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969216" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32643312" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +383,8 @@
     <MESSAGE value="add factor pattern" />
     <MESSAGE value="update readme" />
     <MESSAGE value="add adapter and observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add adapter and observer pattern" />
+    <MESSAGE value="add linkedqueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="add linkedqueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -437,13 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/StrategyPattern.java" />
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,23 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="646">
-            <caret line="34" selection-start-line="34" selection-end-line="34" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="122" lean-forward="true" selection-start-line="6" selection-start-column="122" selection-end-line="6" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/gisalg/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -763,34 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MyArraryStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,6 +709,54 @@
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#493#494#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MyLinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="122" lean-forward="true" selection-start-line="6" selection-start-column="122" selection-end-line="6" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/datastrut/MySeqCycleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
