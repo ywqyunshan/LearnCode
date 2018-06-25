@@ -7,6 +7,7 @@ import com.iigeo.designpattern.decorator.Hat;
 import com.iigeo.designpattern.decorator.Jack;
 import com.iigeo.designpattern.decorator.Persion;
 import com.iigeo.designpattern.decorator.XiaoYang;
+import com.iigeo.designpattern.observer.*;
 import com.iigeo.designpattern.strategy.Apple;
 import com.iigeo.designpattern.strategy.ObjectPredicate;
 import com.iigeo.designpattern.strategy.WeightPredicate;
@@ -97,12 +98,20 @@ public class Main {
         //Lambda表达式简化写法
         filterApple(appleList,apple ->apple.getWeight()>150);*/
 
-        Persion xiaoyang=new XiaoYang();
+        //Test-装饰器模式
+       /* Persion xiaoyang=new XiaoYang();
         xiaoyang=new Hat(xiaoyang);
         xiaoyang=new Jack(xiaoyang);
         xiaoyang.cost();
-        xiaoyang.show();;
+        xiaoyang.show();;*/
 
+       //Test-观察者模式
+        ISubject subject=new Observerable();
+        Observer observerA=new ObserverA();
+        Observer observerB=new ObserverB();
+        subject.registerObserver(observerA);
+        subject.registerObserver(observerB);
+        subject.notifyObserver();
     }
 
     //TEST-策略模式

@@ -7,7 +7,7 @@ import com.iigeo.designpattern.singlefactory.ThinGirl;
 /**
  * 工厂提供者1
  */
-public class ChianeseFactory extends AbstractFactory {
+public class ChineseFactory extends AbstractFactory {
 
     @Override
     public Girl createGirl(String girlType) {

@@ -26,6 +26,8 @@
 * [Singleton Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/singleton)
 * [SingleFactory Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/singlefactory)
 * [AbstractFactory Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/abstractfactory)
+* [Adapter Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/adapter)
+* [Observer Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/observer)
 
 ## Computational Geometry
 * [pointInPoly](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/gisalg/GISAlg.java)
