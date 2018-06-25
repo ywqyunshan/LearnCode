@@ -3,6 +3,10 @@ package com.iigeo.main;
 import com.iigeo.base.Reserve;
 import com.iigeo.datastrut.MyArraryList;
 import com.iigeo.datastrut.MyLinkedStack;
+import com.iigeo.designpattern.decorator.Hat;
+import com.iigeo.designpattern.decorator.Jack;
+import com.iigeo.designpattern.decorator.Persion;
+import com.iigeo.designpattern.decorator.XiaoYang;
 import com.iigeo.designpattern.strategy.Apple;
 import com.iigeo.designpattern.strategy.ObjectPredicate;
 import com.iigeo.designpattern.strategy.WeightPredicate;
@@ -83,12 +87,21 @@ public class Main {
         /*FindString findString=new FindString("AAABBBccccddd2222333dddddd4ee");
         findString.findMostStr();*/
 
-        List<Apple>  appleList=new ArrayList<>();
+        //TEST-策略模式
+        /*List<Apple>  appleList=new ArrayList<>();
         appleList.add(new Apple(120,"green"));
         appleList.add(new Apple(150,"green"));
         appleList.add(new Apple(130,"red"));
         appleList.add(new Apple(160,"blue"));
         filterApple(appleList,new WeightPredicate());
+        //Lambda表达式简化写法
+        filterApple(appleList,apple ->apple.getWeight()>150);*/
+
+        Persion xiaoyang=new XiaoYang();
+        xiaoyang=new Hat(xiaoyang);
+        xiaoyang=new Jack(xiaoyang);
+        xiaoyang.cost();
+        xiaoyang.show();;
 
     }
 

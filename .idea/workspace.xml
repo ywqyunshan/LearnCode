@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="add strategy pattern">
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ColorPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java" afterDir="false" />
+    <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/ColthesDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Hat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Jack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/XiaoYang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +24,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+            <state relative-caret-position="407">
+              <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,57 +33,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectPredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java">
+      <file leaf-file-name="Persion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="114">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Apple.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GISAlg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/gisalg/GISAlg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightPredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColorPredicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ColorPredicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="456">
+                <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -124,15 +94,21 @@
         <option value="$PROJECT_DIR$/src/com/iigeo/find/FindString.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/find/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/gisalg/GISAlg.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/StrategyPattern.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/StrategyPattern.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ColorPredicate.java" />
-        <option value="$PROJECT_DIR$/src/com/iigeo/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/XiaoYang.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/JackColthesDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/ColthesDecorator.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Jack.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Hat.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -266,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529814475879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add strategy pattern">
+      <created>1529894067799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529894067799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -297,12 +280,12 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.326713" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27013177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20204978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39490446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39490446" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,30 +316,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyArraryList.java" />
-    <entry file="file://$PROJECT_DIR$/src/MySeqQueue.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyArraryList.java" />
-    <entry file="file://$PROJECT_DIR$/src/MySingleLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyArraryList.java" />
     <entry file="file://$PROJECT_DIR$/src/MyArraryStack.java" />
     <entry file="file://$PROJECT_DIR$/src/MyColStack.java" />
@@ -466,21 +425,6 @@
     <entry file="file://$PROJECT_DIR$/LearnCode.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="122" lean-forward="true" selection-start-line="6" selection-start-column="122" selection-end-line="6" selection-end-column="122" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -516,23 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/gisalg/GISAlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -547,27 +474,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/gisalg/GISAlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="46">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="323">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/ColthesDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Jack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Hat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/XiaoYang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="122" lean-forward="true" selection-start-line="6" selection-start-column="122" selection-end-line="6" selection-end-column="122" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="456">
+            <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
