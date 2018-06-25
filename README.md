@@ -24,6 +24,8 @@
 * [Strategy Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/strategy)
 * [Decorator Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/decorator)
 * [Singleton Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/singleton)
+* [SingleFactory Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/singlefactory)
+* [AbstractFactory Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/abstractfactory)
 
 ## Computational Geometry
 * [pointInPoly](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/gisalg/GISAlg.java)

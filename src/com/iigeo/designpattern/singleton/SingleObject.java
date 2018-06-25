@@ -1,4 +1,4 @@
-package com.iigeo.designpattern.signleton;
+package com.iigeo.designpattern.singleton;
 
 /**
  * lazy loading

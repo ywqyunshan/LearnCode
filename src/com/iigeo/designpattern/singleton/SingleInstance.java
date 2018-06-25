@@ -1,4 +1,4 @@
-package com.iigeo.designpattern.signleton;
+package com.iigeo.designpattern.singleton;
 
 /**
  * 单例模式--Not Lazy loading
