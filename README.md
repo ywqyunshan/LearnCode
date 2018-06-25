@@ -10,6 +10,7 @@
 * [LinkedStack](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MyLinkedStack.java)
 * [SeqQueue](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MySeqQueue.java)
 * [SeqCycleQueue](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MySeqCycleQueue.java)
+* [LinkedQueue](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/datastrut/MyLinkedQueue.java)
 
 ####  Sort Algorithms
 

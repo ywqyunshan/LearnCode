@@ -2,6 +2,9 @@ package com.iigeo.datastrut;
 
 import java.util.NoSuchElementException;
 
+/**
+ * 链表栈
+ */
 public class MyLinkedStack {
 
     class Node{
@@ -16,7 +19,7 @@ public class MyLinkedStack {
         }
     }
 
-    //移动指针
+    //头节点
     private Node head;
     private int size;
 

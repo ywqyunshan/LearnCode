@@ -2,6 +2,7 @@ package com.iigeo.main;
 
 import com.iigeo.base.Reserve;
 import com.iigeo.datastrut.MyArraryList;
+import com.iigeo.datastrut.MyLinkedQueue;
 import com.iigeo.datastrut.MyLinkedStack;
 import com.iigeo.designpattern.decorator.Hat;
 import com.iigeo.designpattern.decorator.Jack;
@@ -43,6 +44,15 @@ public class Main {
        System.out.println(myArraryStack.pop());
        System.out.println(myArraryStack.peek());
        System.out.println(myArraryStack.pop()); */
+
+        //test--调用队列
+      /* MyLinkedQueue myLinkedQueue=new MyLinkedQueue();
+       myLinkedQueue.enqueue("a");
+       myLinkedQueue.enqueue("b");
+       myLinkedQueue.enqueue("c");
+       System.out.println(myLinkedQueue.dequeue());
+       System.out.println(myLinkedQueue.peek());
+       System.out.println(myLinkedQueue.dequeue());*/
 
        //test--调用单链表
        /* MySingleLinkedList mySingleLinkedList=new MySingleLinkedList();
@@ -106,12 +116,12 @@ public class Main {
         xiaoyang.show();;*/
 
        //Test-观察者模式
-        ISubject subject=new Observerable();
+      /*  ISubject subject=new Observerable();
         Observer observerA=new ObserverA();
         Observer observerB=new ObserverB();
         subject.registerObserver(observerA);
         subject.registerObserver(observerB);
-        subject.notifyObserver();
+        subject.notifyObserver();*/
     }
 
     //TEST-策略模式

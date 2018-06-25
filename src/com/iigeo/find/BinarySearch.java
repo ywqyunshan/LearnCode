@@ -15,9 +15,10 @@ public class BinarySearch {
 
     //递归排序
     public int indexof(int start,int end,int key){
+        if (start>end) return -1;
         //1.先排序
         Arrays.sort(ints);
-        int mIndex=(start+end)/2;
+        int mIndex=start+(end-start)/2; //防止溢出
         int mVaule=ints[mIndex];
         //2.递归查找
         if (key<mVaule) {
