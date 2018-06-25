@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/ColthesDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Hat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Jack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/XiaoYang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+            <state relative-caret-position="198">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Persion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java">
+      <file leaf-file-name="SingleObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/signle/SingleObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -46,8 +40,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+              <first_editor relative-caret-position="372">
+                <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -108,6 +102,8 @@
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Hat.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ObjectPredicate.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/signle/SingleInstance.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/signle/SingleObject.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -137,6 +133,32 @@
             <path>
               <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="signle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529894067799</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add decorator pattern">
+      <created>1529898148504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529898148504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -266,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286991" />
@@ -308,7 +338,8 @@
     <MESSAGE value="add findstring" />
     <MESSAGE value="reactor project name" />
     <MESSAGE value="add strategy pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add strategy pattern" />
+    <MESSAGE value="add decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add decorator pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -316,8 +347,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MyArraryList.java" />
-    <entry file="file://$PROJECT_DIR$/src/MyArraryStack.java" />
     <entry file="file://$PROJECT_DIR$/src/MyColStack.java" />
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -488,16 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -560,8 +579,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/Persion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/signle/SingleInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/signle/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -573,8 +620,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+          <first_editor relative-caret-position="372">
+            <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
