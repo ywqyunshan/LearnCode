@@ -20,7 +20,7 @@
 #### Find
 * [BinarySearch](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/find/BinarySearch.java)
 
-## Design Patterningle
+## Design Pattern
 * [Strategy Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/strategy)
 * [Decorator Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/decorator)
 * [Singleton Pattern](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/designpattern/singleton)

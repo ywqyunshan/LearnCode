@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/abstractfactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/abstractfactory/AbstractGirlStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/abstractfactory/AmericanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/abstractfactory/ChianeseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/FatGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/GirlFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/GirlStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/ThinGirl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/WhiteGirl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/designpattern/signleton/SingleInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singleton/SingleInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/iigeo/designpattern/signleton/SingleObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/designpattern/singleton/SingleObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +18,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="84">
               <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,11 +27,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LearnCode.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnCode.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="448">
+              <first_editor relative-caret-position="494">
                 <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               </first_editor>
               <second_editor>
@@ -274,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529899670504</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add factor pattern">
+      <created>1529902775880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529902775880</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -335,7 +335,8 @@
     <MESSAGE value="add strategy pattern" />
     <MESSAGE value="add decorator pattern" />
     <MESSAGE value="add singleton pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add singleton pattern" />
+    <MESSAGE value="add factor pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add factor pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,9 +414,6 @@
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearnCode.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -664,13 +662,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="84">
           <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnCode.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
@@ -680,7 +681,7 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="448">
+          <first_editor relative-caret-position="494">
             <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           </first_editor>
           <second_editor>
