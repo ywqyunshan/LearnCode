@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  * BIO-ScoketServer——利用线程池实现线程复用
  * 单机低于1000并发操作
  */
-public class DemoSocketServer {
+public class BIOSocketServer {
 
 
     public static void initSocketServer(){

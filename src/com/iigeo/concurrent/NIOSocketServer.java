@@ -17,9 +17,9 @@ import java.util.Set;
  * 高并发
  *
  */
-public class NioServer extends Thread {
+public class NIOSocketServer extends Thread {
 
-    public NioServer() {
+    public NIOSocketServer() {
         //Selctor是阻塞的，开启一个新线程处理
     }
 

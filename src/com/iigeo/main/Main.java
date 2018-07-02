@@ -1,8 +1,7 @@
 package com.iigeo.main;
 
 import com.iigeo.base.Reserve;
-import com.iigeo.concurrent.DemoSocketServer;
-import com.iigeo.concurrent.NioServer;
+import com.iigeo.concurrent.NIOSocketServer;
 import com.iigeo.datastrut.MyArraryList;
 import com.iigeo.datastrut.MyLinkedQueue;
 import com.iigeo.datastrut.MyLinkedStack;
@@ -139,9 +138,9 @@ public class Main {
         subject.notifyObserver();*/
 
        //TEST- BIO socket通信
-        //DemoSocketServer.initSocketServer();
+        //BIOSocketServer.initSocketServer();
         //TEST- NIO socket通信
-        NioServer nioServer=new NioServer();
+        NIOSocketServer nioServer=new NIOSocketServer();
         nioServer.start();
         connectNioScocket();
 

@@ -1,5 +1,5 @@
 
-## Java Data Structures and Algorithms
+## Java Data Structures,Algorithms,Design Pattern and I/0 Modle
 
 ####  Data Structures
 
@@ -33,3 +33,6 @@
 ## Computational Geometry
 * [pointInPoly](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/gisalg/GISAlg.java)
 
+## I/O Model
+* [BIO Model](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/concurrent/BIOSocketServer.java)
+* [NIO Model](https://github.com/ywqyunshan/LearnStudy/blob/master/src/com/iigeo/concurrent/NIOSocketServer.java)
