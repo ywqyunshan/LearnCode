@@ -2,6 +2,7 @@ package com.iigeo.main;
 
 import com.iigeo.base.Reserve;
 import com.iigeo.concurrent.DemoSocketServer;
+import com.iigeo.concurrent.NioServer;
 import com.iigeo.datastrut.MyArraryList;
 import com.iigeo.datastrut.MyLinkedQueue;
 import com.iigeo.datastrut.MyLinkedStack;
@@ -18,6 +19,12 @@ import com.iigeo.find.FindString;
 import com.iigeo.recurison.Factorial;
 import com.iigeo.sort.MySort;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -131,9 +138,24 @@ public class Main {
         subject.registerObserver(observerB);
         subject.notifyObserver();*/
 
-      //TEST-socket通信
-        DemoSocketServer.initSocketServer();
+       //TEST- BIO socket通信
+        //DemoSocketServer.initSocketServer();
+        //TEST- NIO socket通信
+        NioServer nioServer=new NioServer();
+        nioServer.start();
+        connectNioScocket();
+
     }
+
+     static void connectNioScocket(){
+         try {
+             Socket socket=new Socket(InetAddress.getLocalHost(),8999);
+             BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(socket.getInputStream()));
+             bufferedReader.lines().forEach(s -> {System.out.println(s);});
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+     }
 
     //TEST-策略模式
     static List<Apple> filterApple(List<Apple> appleList, ObjectPredicate<Apple> objectPredicate){

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9863d75-2d0f-463a-af54-b90a28e25aea" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/iigeo/concurrent/NioServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/iigeo/concurrent/DemoSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/concurrent/DemoSocketServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/iigeo/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnectIOnHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectIOnHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/ConnectIOnHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="236">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +32,32 @@
       <file leaf-file-name="DemoSocketServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/DemoSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NioServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/NioServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/WeightPredicate.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/ColorPredicate.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/strategy/Apple.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/designpattern/decorator/XiaoYang.java" />
@@ -105,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/com/iigeo/utils/SystemUtil.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/concurrent/ConnectIOnHandler.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/concurrent/DemoSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/iigeo/concurrent/NioServer.java" />
         <option value="$PROJECT_DIR$/src/com/iigeo/main/Main.java" />
       </list>
     </option>
@@ -136,59 +162,6 @@
             <path>
               <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="find" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="recurison" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="iigeo" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529940661577</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add BIO socket server">
+      <created>1530502880299</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530502880299</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -372,7 +352,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32724252" />
@@ -387,13 +366,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3255814" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701966" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39490446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3936877" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -421,7 +400,8 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="add adapter and observer pattern" />
     <MESSAGE value="add linkedqueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="add linkedqueue" />
+    <MESSAGE value="add BIO socket server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BIO socket server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,21 +409,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/singleton/SingleInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/singleton/SingleObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactor/Factor.java" />
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/designpattern/singlefactory/ThinGirl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -759,20 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/DemoSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -781,8 +736,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/ConnectIOnHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="236">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/sun/nio/ch/Net.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1043" selection-start-line="1043" selection-end-line="1043" />
+          <folding>
+            <element signature="e#44327#44328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/concurrent/NioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/iigeo/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
