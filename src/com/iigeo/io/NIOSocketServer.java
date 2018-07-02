@@ -1,4 +1,4 @@
-package com.iigeo.concurrent;
+package com.iigeo.io;
 
 import java.io.IOException;
 import java.net.InetAddress;

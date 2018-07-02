@@ -5,9 +5,11 @@ package com.iigeo.designpattern.singleton;
  */
 public class SingleObject {
 
+
     private static SingleObject instance;
 
-    public SingleObject() { }
+    //声明为private，减少使用默认构造函数，实例化
+    private SingleObject() { }
 
     public static SingleObject getInstance() {
         // lazy loading

@@ -1,32 +1,15 @@
 package com.iigeo.main;
 
-import com.iigeo.base.Reserve;
-import com.iigeo.concurrent.NIOSocketServer;
-import com.iigeo.datastrut.MyArraryList;
-import com.iigeo.datastrut.MyLinkedQueue;
-import com.iigeo.datastrut.MyLinkedStack;
-import com.iigeo.designpattern.decorator.Hat;
-import com.iigeo.designpattern.decorator.Jack;
-import com.iigeo.designpattern.decorator.Persion;
-import com.iigeo.designpattern.decorator.XiaoYang;
-import com.iigeo.designpattern.observer.*;
+import com.iigeo.concurrent.TicketThread;
 import com.iigeo.designpattern.strategy.Apple;
 import com.iigeo.designpattern.strategy.ObjectPredicate;
-import com.iigeo.designpattern.strategy.WeightPredicate;
-import com.iigeo.find.BinarySearch;
-import com.iigeo.find.FindString;
-import com.iigeo.recurison.Factorial;
-import com.iigeo.sort.MySort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
-import java.net.InetSocketAddress;
 import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
@@ -140,10 +123,24 @@ public class Main {
        //TEST- BIO socket通信
         //BIOSocketServer.initSocketServer();
         //TEST- NIO socket通信
-        NIOSocketServer nioServer=new NIOSocketServer();
+        /*NIOSocketServer nioServer=new NIOSocketServer();
         nioServer.start();
-        connectNioScocket();
+        connectNioScocket();*/
+        //testLinkHashMap();
+        testConcurrent();
+    }
 
+    //Test-Concurrent
+    static void testConcurrent(){
+        TicketThread ticketThread=new TicketThread();
+        Thread ticketThread1=new Thread(ticketThread);
+        Thread ticketThread2=new Thread(ticketThread);
+        Thread ticketThread3=new Thread(ticketThread);
+        Thread ticketThread4=new Thread(ticketThread);
+        ticketThread1.start();
+        ticketThread2.start();
+        ticketThread3.start();
+        ticketThread4.start();
     }
 
      static void connectNioScocket(){
@@ -164,6 +161,38 @@ public class Main {
             apples.add(apple);
         }
         return apples;
+    }
+
+    //Test-测试HashMap
+    static void testLinkHashMap(){
+        LinkedHashMap<String,String> linkedHashMap=new LinkedHashMap(){
+            @Override
+            protected boolean removeEldestEntry(Map.Entry eldest) {
+                return size()>3;
+            }
+        };
+
+       /* linkedHashMap.put("p1","www");
+        linkedHashMap.put("p2","bbb");
+        linkedHashMap.put("p3","ccc");
+        linkedHashMap.forEach((k,v) -> {
+            System.out.println(k+":"+v);
+        });
+
+        linkedHashMap.get("p1");
+        linkedHashMap.get("p1");
+        linkedHashMap.get("p3");
+        System.out.println("Test2");
+        linkedHashMap.forEach((k,v)->{
+            System.out.println(k+":"+v);
+        });
+
+        linkedHashMap.put("p4","ddddd");
+        System.out.println("Test3");
+        linkedHashMap.forEach((k,v)->{
+            System.out.println(k+":"+v);
+        });*/
+
     }
 
 }
