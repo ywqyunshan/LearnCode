@@ -1,6 +1,7 @@
 package com.iigeo.main;
 
 import com.iigeo.base.Reserve;
+import com.iigeo.concurrent.DemoSocketServer;
 import com.iigeo.datastrut.MyArraryList;
 import com.iigeo.datastrut.MyLinkedQueue;
 import com.iigeo.datastrut.MyLinkedStack;
@@ -14,6 +15,7 @@ import com.iigeo.designpattern.strategy.ObjectPredicate;
 import com.iigeo.designpattern.strategy.WeightPredicate;
 import com.iigeo.find.BinarySearch;
 import com.iigeo.find.FindString;
+import com.iigeo.recurison.Factorial;
 import com.iigeo.sort.MySort;
 
 import java.util.ArrayList;
@@ -98,6 +100,12 @@ public class Main {
         /*FindString findString=new FindString("AAABBBccccddd2222333dddddd4ee");
         findString.findMostStr();*/
 
+        //Test---递归阶乘
+      /*  Factorial factorial=new Factorial();
+        System.out.println(factorial.factoial(3));
+        System.out.println(factorial.factoial(1));*/
+
+
         //TEST-策略模式
         /*List<Apple>  appleList=new ArrayList<>();
         appleList.add(new Apple(120,"green"));
@@ -122,6 +130,9 @@ public class Main {
         subject.registerObserver(observerA);
         subject.registerObserver(observerB);
         subject.notifyObserver();*/
+
+      //TEST-socket通信
+        DemoSocketServer.initSocketServer();
     }
 
     //TEST-策略模式
