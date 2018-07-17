@@ -15,13 +15,14 @@ public class MySort {
     }
 
     /**
-     * 冒泡排序
+     * 冒泡排序,算法时间复杂度O(n²)，稳定
      */
     public void bubbleSort(){
         for (int i=0;i<arrs.length-1;i++) {
             //共有n-1趟排序
             boolean isFlag=true;
             for (int j = 0; j < arrs.length - 1-i; j++) {
+                //两两比较
                 if (arrs[j] > arrs[j+1]) {
                     int temp=arrs[j];
                     arrs[j]=arrs[j+1];
@@ -35,7 +36,7 @@ public class MySort {
     }
 
     /**
-     * 直接插入排序
+     * 直接插入排序,算法时间复杂度O(n²),稳定
      */
     public void insertSort(){
 
@@ -54,7 +55,33 @@ public class MySort {
     }
 
     /**
-     * 快速排序
+     * 二分插入排序
+     */
+    public void binaryInsertSort(){
+
+    }
+
+    /**
+     * 选择排序，时间复杂度O(n²)，不稳定
+     */
+    public void selectSort(){
+        int min;
+        for (int i=0;i<arrs.length-1;i++){
+            min=i; //最小值的下标赋值为初始i值
+            for(int j=i+1;j<arrs.length-1;j++){
+                if (arrs[min]>arrs[j]) min=j;
+            }
+            int temp=arrs[i];
+            arrs[i]=arrs[min];
+            arrs[min]=temp;
+
+        }
+    }
+
+
+
+    /**
+     * 快速排序，算法复杂度O(n log n)，不稳定 ，空间复杂度O(1),采用分治和递归思想
      */
     public void qSort(int left ,int right){
         if (left >= right || arrs == null || arrs.length <= 1) {
@@ -79,7 +106,5 @@ public class MySort {
         qSort(left,j);
         qSort(i,right);
     }
-
-
 
 }

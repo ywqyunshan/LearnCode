@@ -1,5 +1,7 @@
 package com.iigeo.concurrent;
 
+import java.util.concurrent.BlockingQueue;
+
 public class TicketThread implements Runnable {
 
     //100张票

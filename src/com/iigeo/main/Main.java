@@ -5,6 +5,7 @@ import com.iigeo.concurrent.SemaphoreWork;
 import com.iigeo.concurrent.TicketThread;
 import com.iigeo.designpattern.strategy.Apple;
 import com.iigeo.designpattern.strategy.ObjectPredicate;
+import com.iigeo.sort.MySort;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -71,11 +72,13 @@ public class Main {
        System.out.println(myDoubleLinkedList.get(1));*/
 
        /*----------------------------------Test--排序-----------------------------------------*/
-       /*int[] arrs={7,9,1,37,21,29,39};
+       int[] arrs={7,9,37,21,29,21,39,1};
         System.out.println(Arrays.toString(arrs));
        MySort mySort=new MySort(arrs);
-       mySort.qSort(0,arrs.length-1);
-       System.out.println("插入排序"+Arrays.toString(arrs));*/
+       //mySort.qSort(0,arrs.length-1);
+       //mySort.selectSort();
+        mySort.insertSort();
+       System.out.println("插入排序"+Arrays.toString(arrs));
 
        /*----------------------------------Test--逆序------------------------------------------*/
        /*int[] ints={3,5,9,2,10,8};
@@ -139,7 +142,7 @@ public class Main {
         //testSemaphore();
 
         /*----------------------------------Test-CountDownLatch-------------------------------  -----------------*/
-        testCountDown();
+        //testCountDown();
     }
 
     //Test-Concurrent——Countdown
