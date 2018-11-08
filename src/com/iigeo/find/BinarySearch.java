@@ -13,6 +13,31 @@ public class BinarySearch {
         this.ints=ints;
     }
 
+
+
+    public int index(int start ,int end,int key){
+        if (start>end)return -1;
+        Arrays.sort(ints);
+        int middle=(start+end)/2;
+        int value=ints[middle];
+        if (key>value){
+            return index(middle+1,end,key);
+        }else if (key<value){
+            return index(start,middle-1,key);
+        }else {
+            return middle;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
     //递归排序
     public int indexof(int start,int end,int key){
         if (start>end) return -1;

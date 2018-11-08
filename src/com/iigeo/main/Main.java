@@ -3,8 +3,12 @@ package com.iigeo.main;
 import com.iigeo.concurrent.FirstCountDownWork;
 import com.iigeo.concurrent.SemaphoreWork;
 import com.iigeo.concurrent.TicketThread;
+import com.iigeo.datastrut.ArraryQueue;
 import com.iigeo.designpattern.strategy.Apple;
 import com.iigeo.designpattern.strategy.ObjectPredicate;
+import com.iigeo.dynamicprogram.IptoLong;
+import com.iigeo.dynamicprogram.Lis;
+import com.iigeo.find.BinarySearch;
 import com.iigeo.sort.MySort;
 
 import java.io.BufferedReader;
@@ -19,6 +23,8 @@ import java.util.concurrent.Semaphore;
 public class Main {
 
     public static void main(String[] args) {
+
+        /*--------------------------------数据结构-------------------------------------*/
 
         /*---------------------Test--调用顺序列表----------------------------------*/
         /*MyArraryList myArraryList=new MyArraryList(2);
@@ -50,6 +56,15 @@ public class Main {
        System.out.println(myLinkedQueue.peek());
        System.out.println(myLinkedQueue.dequeue());*/
 
+        /*-----------------------Test--调用数组循环队列--------------------------------------*/
+       /* ArraryQueue arraryQueue=new ArraryQueue();
+        arraryQueue.enqueue("bb");
+        arraryQueue.enqueue("cc");
+        arraryQueue.enqueue("dd");
+        System.out.println(arraryQueue.dequeue());
+        System.out.println(arraryQueue.dequeue());
+        System.out.println(arraryQueue.dequeue());*/
+
        /*---------------------------Test--调用单链表---------------------------------------*/
        /* MySingleLinkedList mySingleLinkedList=new MySingleLinkedList();
        mySingleLinkedList.add(0,"a");
@@ -71,14 +86,20 @@ public class Main {
        myDoubleLinkedList.set(1,"d");
        System.out.println(myDoubleLinkedList.get(1));*/
 
+
+       /*----------------------------算法---------------------------------------*/
+
        /*----------------------------------Test--排序-----------------------------------------*/
        int[] arrs={7,9,37,21,29,21,39,1};
         System.out.println(Arrays.toString(arrs));
-       MySort mySort=new MySort(arrs);
+       //MySort mySort=new MySort(arrs);
        //mySort.qSort(0,arrs.length-1);
        //mySort.selectSort();
-        mySort.insertSort();
-       System.out.println("插入排序"+Arrays.toString(arrs));
+        //mySort.bubbleSort();
+        //mySort.quickSort(0,arrs.length-1);
+       //System.out.println("快速排序"+Arrays.toString(arrs));
+
+
 
        /*----------------------------------Test--逆序------------------------------------------*/
        /*int[] ints={3,5,9,2,10,8};
@@ -88,10 +109,18 @@ public class Main {
        System.out.println(Arrays.toString(ints));*/
 
        /*---------------------------------------Test--二分法查找----------------------------------*/
-       /*  int[] ints={3,5,8,9,0,2,7,44,6};
+         int[] ints={3,5,8,9,0,2,7,44,6};
         BinarySearch binarySearch=new BinarySearch(ints);
-       int i= binarySearch.indexofByWhie(0,ints.length-1,1);
-       System.out.println(i);*/
+       int i= binarySearch.index(0,ints.length-1,1);
+       System.out.println(i);
+
+       /*----------------------------------ipv4地址转32位整数---------------------------------------*/
+        IptoLong iptoLong=new IptoLong();
+        System.out.println(iptoLong.iptoLong("192.1.2"));
+
+        /*----------------------------------动态规划：最长递增子序列-----------------------------------------*/
+        Lis lis=new Lis(arrs);
+        System.out.println("最长递增子序列："+lis.getLisLength());
 
        /*------------------------------------------Test---查找字符串---------------------------------*/
         /*FindString findString=new FindString("AAABBBccccddd2222333dddddd4ee");

@@ -15,43 +15,75 @@ public class MySort {
     }
 
     /**
-     * 冒泡排序,算法时间复杂度O(n²)，稳定
+     * 冒泡排序，稳定算法
      */
     public void bubbleSort(){
-        for (int i=0;i<arrs.length-1;i++) {
-            //共有n-1趟排序
-            boolean isFlag=true;
-            for (int j = 0; j < arrs.length - 1-i; j++) {
-                //两两比较
-                if (arrs[j] > arrs[j+1]) {
+        for (int i=0;i<arrs.length;i++){
+            boolean isFag=true;
+            for (int j=0;j<arrs.length-1-i;j++){
+                if (arrs[j]>arrs[j+1]){
                     int temp=arrs[j];
                     arrs[j]=arrs[j+1];
                     arrs[j+1]=temp;
-                    isFlag=false;
+                    isFag=false;
                 }
             }
-            //如发现某趟无交换，表示已经排好序，直接退出循环。
-            if (isFlag)break;
+            //如果本次排序没有比较，则直接退出
+            if (isFag)break;
         }
     }
 
     /**
-     * 直接插入排序,算法时间复杂度O(n²),稳定
+     * 插入排序
      */
-    public void insertSort(){
-
-        for (int i=0;i<arrs.length-1;i++){
-            for (int j=i+1;j>0;j--){
-                if (arrs[j-1]<=arrs[j]){
-                    break;
-                }
-                int temp=arrs[j-1];
-                arrs[j-1]=arrs[j];
-                arrs[j]=temp;
+    public void  insertSort(){
+        for(int i=1;i<arrs.length;i++){
+            //取出无序区数据
+            int value=arrs[i];
+            //标记有序区节点位置
+            int j=i-1;
+            //将无序区数据和有序区数据比对时，从右往左比对
+         /*   while (j>=0&&value<arrs[j]){
+                arrs[j+1]=arrs[j];
+                j--;
             }
-
+            arrs[j+1]=value;*/
+            for (;j>=0;j--){
+                if (value>=arrs[j])break;
+                arrs[j+1]=arrs[j];
+            }
+            arrs[j+1]=value;
         }
 
+    }
+
+    public void quickSort(int left,int right){
+        if (left >= right || arrs == null || arrs.length <= 1) {
+            return;
+        }
+        //获取分区值(下标为0的值)）
+        int value=arrs[(left+right)/2];
+        int i=left;
+        int j=right;
+
+        while (j>=i){
+            //从右侧查找大于value的值，右侧索引移动
+            while (arrs[j]>value)j--;
+            //从左侧查找小于value的值，左侧索引移动
+            while (arrs[i]<value)i++;
+
+            if (j>i){
+               int temp=arrs[i];
+               arrs[i]=arrs[j];
+               arrs[j]=temp;
+               i++;
+               j--;
+             }else if (i==j){
+                i++;
+            }
+        }
+        quickSort(left,j);
+        quickSort(i,right);
     }
 
     /**
